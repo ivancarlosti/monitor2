@@ -69,8 +69,9 @@ status-website:
   introMessage: This is the monitor status page which uses **real-time** data from our [GitHub repository](https://github.com/ivancarlos-me/Uptime-by-GitHub). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   favicon: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/7vqI6o13.png
   #faviconSvg: https://example.com/logo.svg
-  customHeadHtml: "<meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><title>Página Protegida</title><style>#content{display:none;}</style>"
-  customBodyHtml: "<input type=\"password\" id=\"password\" placeholder=\"Digite a senha\"><button onclick=\"checkPassword()\">Entrar</button></div><div id=\"content\"><h1>Conteúdo Protegido</h1><p>Este é o conteúdo que está protegido por senha.</p></div><script>function checkPassword(){var password=document.getElementById('password').value;if(password==='suaSenha'){document.getElementById('paywall').style.display='none';document.getElementById('content').style.display='block';}else{alert('Senha incorreta!');}}</script>"
+  customHeadHtml: "<!-- -->"
+  customBodyHtml: "<!-- -->"
+  js: "document.addEventListener('DOMContentLoaded',function(){var senha='minhaSenhaSegura';var senhaDigitada=prompt('Por favor, insira a senha:');if(senhaDigitada!==senha){alert('Senha incorreta. Acesso negado.');document.body.innerHTML='';window.location.href='https://www.google.com';}});"
   navbar:
     - title: Status
       href: /
