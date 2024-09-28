@@ -25,7 +25,8 @@ sites:
       - 302
 
 status-website:
-  theme: night
+  #theme: night
+  themeUrl: /icc.css
   cname: monitor2.ivancarlos.com.br
   logoUrl: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/BNCnMqeS.png
   name: "Monitor2 de Status: Uptime by GitHub"
