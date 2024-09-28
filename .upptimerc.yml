@@ -65,12 +65,6 @@ sites:
       - 200
       - 301
       - 302
-  - name: Punto.puntosv08
-    url: https://puntosv08.puntocomunicacao.com.br
-    expectedStatusCodes:
-      - 200
-      - 301
-      - 302
   - name: Punto.puntosv09
     url: https://puntosv09.puntocomunicacao.com.br
     expectedStatusCodes:
@@ -84,9 +78,11 @@ sites:
       - 301
       - 302
   - name: ICC v6
+    check: "tcp-ping"
     url: https://ivancarlos.com.br
     ipv6: true
   - name: Bowler v6
+    check: "tcp-ping"
     url: https://bowler.com.br
     ipv6: true
 status-website:
