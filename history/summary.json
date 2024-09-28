@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 610,
-    "timeDay": 610,
-    "timeWeek": 610,
-    "timeMonth": 610,
-    "timeYear": 610,
+    "time": 618,
+    "timeDay": 618,
+    "timeWeek": 618,
+    "timeMonth": 618,
+    "timeYear": 618,
     "dailyMinutesDown": {}
   },
   {
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 2181,
-    "timeDay": 2181,
-    "timeWeek": 2181,
-    "timeMonth": 2181,
-    "timeYear": 2181,
+    "time": 2198,
+    "timeDay": 2198,
+    "timeWeek": 2198,
+    "timeMonth": 2198,
+    "timeYear": 2198,
     "dailyMinutesDown": {}
   },
   {
@@ -46,11 +46,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 8450,
-    "timeDay": 8450,
-    "timeWeek": 8450,
-    "timeMonth": 8450,
-    "timeYear": 8450,
+    "time": 8434,
+    "timeDay": 8434,
+    "timeWeek": 8434,
+    "timeMonth": 8434,
+    "timeYear": 8434,
     "dailyMinutesDown": {}
   },
   {
@@ -64,31 +64,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 5691,
-    "timeDay": 5691,
-    "timeWeek": 5691,
-    "timeMonth": 5691,
-    "timeYear": 5691,
+    "time": 5681,
+    "timeDay": 5681,
+    "timeWeek": 5681,
+    "timeMonth": 5681,
+    "timeYear": 5681,
     "dailyMinutesDown": {}
-  },
-  {
-    "name": "iccsv05",
-    "url": "iccsv05.ivancarlos.com.br",
-    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
-    "slug": "iccsv05",
-    "status": "down",
-    "uptime": "0.00%",
-    "uptimeDay": "0.00%",
-    "uptimeWeek": "0.00%",
-    "uptimeMonth": "0.00%",
-    "uptimeYear": "0.00%",
-    "time": 119,
-    "timeDay": 119,
-    "timeWeek": 119,
-    "timeMonth": 119,
-    "timeYear": 119,
-    "dailyMinutesDown": {
-      "2024-09-28": 44
-    }
   }
 ]
