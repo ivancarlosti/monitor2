@@ -71,7 +71,7 @@ status-website:
   #faviconSvg: https://example.com/logo.svg
   customHeadHtml: "<!-- -->"
   customBodyHtml: "<!-- -->"
-  js: "document.addEventListener('DOMContentLoaded',function(){var senha='ivancarlosconsultoria';var senhaDigitada=prompt('This status page is password protected.');if(senhaDigitada!==senha){alert('Access denied.');document.body.innerHTML='';window.location.href='https://ivancarlos.com.br';}});"
+  js: "document.addEventListener('DOMContentLoaded',function(){var senha='ivancarlosconsultoria';var senhaDigitada=prompt('This status page is password protected.');if(senhaDigitada!==senha){alert('Access denied.');document.body.innerHTML='';window.location.href='https://monitor2.ivancarlos.com.br';}});"
   navbar:
     - title: Status
       href: /
