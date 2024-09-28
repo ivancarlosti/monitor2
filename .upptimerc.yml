@@ -27,6 +27,7 @@ sites:
     url: iccsv05.ivancarlos.com.br
     port: 443
     check: "tcp-ping"
+    ipv6: "true"
 
 status-website:
   theme: night
