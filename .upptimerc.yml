@@ -9,21 +9,21 @@ sites:
 #  - name: Hacker News
 #    url: https://news.ycombinator.com
 #    maxResponseTime: 5000
-  - name: UptimeRobot~uptimerobot.com
+  - name: UptimeRobot
     url: https://uptimerobot.com
-  - name: Punto . alerta.org.br
+  - name: Punto
     url: https://alerta.org.br
     expectedStatusCodes:
       - 200
       - 301
       - 302
-  - name: SP4~sp4com.com.br
+  - name: SP4
     url: https://sp4com.com.br
     expectedStatusCodes:
       - 200
       - 301
       - 302
-  - name: SP4~sp4comunicacao.com.br
+  - name: SP4
     url: https://sp4comunicacao.com.br
     expectedStatusCodes:
       - 200
