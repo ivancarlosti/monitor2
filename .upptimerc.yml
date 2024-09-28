@@ -8,8 +8,9 @@ sites:
     url: https://en.wikipedia.org
   - name: Hacker News
     url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: UptimeRobot
+    url: https://uptimerobot.com
+    maxResponseTime: 5000
   - name: iccsv01
     url: iccsv01.ivancarlos.com.br
     port: 80
