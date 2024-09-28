@@ -45,12 +45,12 @@ sites:
 status-website:
   theme: dark
   cname: monitor2.ivancarlos.com.br
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/BNCnMqeS.png
   name: Uptime by GitHub
   introTitle: "**Uptime by GitHub** is the support monitoring tool to UptimeRobot, powered entirely by GitHub."
   introMessage: This is the monitor status page which uses **real-time** data from our [GitHub repository](https://github.com/ivancarlos-me/Uptime-by-GitHub). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
-  favicon: https://example.com/favicon.png
-  faviconSvg: https://example.com/logo.svg
+  favicon: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/7vqI6o13.png
+  #faviconSvg: https://example.com/logo.svg
   customHeadHtml: "<!-- Custom HTML to add in the <head> tag -->"
   customBodyHtml: "<!-- Custom HTML to add at the beginning of <body> -->"
   navbar:
