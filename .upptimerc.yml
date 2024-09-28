@@ -85,6 +85,14 @@ sites:
     check: "tcp-ping"
     url: https://bowler.com.br
     ipv6: true
+  - name: ICC v4
+    check: "tcp-ping"
+    url: https://ivancarlos.com.br
+    ipv6: false
+  - name: Bowler v4
+    check: "tcp-ping"
+    url: https://bowler.com.br
+    ipv6: false
 status-website:
 # theme: night
   themeUrl: https://monitor2.ivancarlos.com.br/icc.css
