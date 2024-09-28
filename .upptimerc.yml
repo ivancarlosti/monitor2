@@ -111,7 +111,7 @@ status-website:
   cname: monitor2.ivancarlos.com.br
   logoUrl: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/BNCnMqeS.png
   name: "Monitor2 de Status"
-  introTitle: "**Monitor2 de Status** is our secondary monitoring tool powered by GitHub."
+  introTitle: "**Monitor2 de Status** is the secondary monitoring tool used by [**ICC**](https://ivancarlos.com.br) and hosted by [*GitHub*](https://github.com/)."
   introMessage: This is the monitor status page which uses **real-time** data from our [**GitHub repository**](https://github.com/ivancarlos-me/Uptime-by-GitHub). No server required, just GitHub Actions, Issues, and Pages. This monitor checks websites on hosting providers that blocks UptimeRobot, dashboard managers and IPv6 checks. For now we have issues testing IPv6 addresses. 
   favicon: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/7vqI6o13.png
   faviconSvg: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/hGlsQKtB.svg
