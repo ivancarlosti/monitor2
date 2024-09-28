@@ -11,16 +11,16 @@ sites:
 #    maxResponseTime: 5000
   - name: UptimeRobot
     url: https://uptimerobot.com
-  - name: Punto | Website | alerta.org.br
+  - name: Punto . Website . alerta.org.br
     url: https://alerta.org.br
     expectedStatusCodes:
       - 200
-  - name: SP4 | Forwarder | sp4com.com.br
+  - name: SP4 . Forwarder . sp4com.com.br
     url: https://sp4com.com.br
     expectedStatusCodes:
       - 200
       - 301
-  - name: SP4 | Website | www.sp4comunicacao.com.br
+  - name: SP4 . Website . www.sp4comunicacao.com.br
     url: https://www.sp4comunicacao.com.br
     expectedStatusCodes:
       - 200
