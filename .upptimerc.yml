@@ -18,6 +18,7 @@ sites:
   - name: SP4 | Forwarder | sp4com.com.br
     url: https://sp4com.com.br
     expectedStatusCodes:
+      - 200
       - 301
   - name: SP4 | Website | www.sp4comunicacao.com.br
     url: https://www.sp4comunicacao.com.br
@@ -56,7 +57,7 @@ sites:
 #    ipv6: true
 
 status-website:
-  theme: ocean
+  theme: night
   cname: monitor2.ivancarlos.com.br
   logoUrl: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/BNCnMqeS.png
   name: Uptime by GitHub
