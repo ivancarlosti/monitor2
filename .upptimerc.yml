@@ -9,7 +9,7 @@ sites:
 #  - name: Hacker News
 #    url: https://news.ycombinator.com
 #    maxResponseTime: 5000
-  - name: UptimeRobot.uptimerobot
+  - name: UptimeRobot
     url: https://uptimerobot.com
   - name: Punto.alerta
     url: https://alerta.org.br
@@ -39,11 +39,11 @@ sites:
 #    port: 443
 #    check: "tcp-ping"
 #    ipv6: true
-  - name: iccsv03
-    url: https://iccsv03.ivancarlos.com.br
-    port: 443
-    check: "tcp-ping"
-    ipv6: true
+#  - name: iccsv03
+#    url: https://iccsv03.ivancarlos.com.br
+#    port: 443
+#    check: "tcp-ping"
+#    ipv6: true
 #  - name: iccsv04
 #    url: https://iccsv04.ivancarlos.com.br
 #    port: 443
