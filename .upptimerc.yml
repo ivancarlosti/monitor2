@@ -69,8 +69,8 @@ status-website:
   introMessage: This is the monitor status page which uses **real-time** data from our [GitHub repository](https://github.com/ivancarlos-me/Uptime-by-GitHub). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   favicon: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/7vqI6o13.png
   #faviconSvg: https://example.com/logo.svg
-  customHeadHtml: "<!-- Custom HTML to add in the <head> tag -->"
-  customBodyHtml: "<!-- Custom HTML to add at the beginning of <body> -->"
+  customHeadHtml: "<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Página Protegida</title><style>#content{display:none;}</style>"
+  customBodyHtml: "<div id="paywall"><h2>Esta página está protegida por senha</h2><input type="password" id="password" placeholder="Digite a senha"><button onclick="checkPassword()">Entrar</button></div><div id="content"><h1>Conteúdo Protegido</h1><p>Este é o conteúdo que está protegido por senha.</p></div><script>function checkPassword(){var password=document.getElementById('password').value;if(password==='suaSenha'){document.getElementById('paywall').style.display='none';document.getElementById('content').style.display='block';}else{alert('Senha incorreta!');}}</script>"
   navbar:
     - title: Status
       href: /
