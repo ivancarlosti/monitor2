@@ -2,45 +2,58 @@ owner: ivancarlos-me
 repo: Uptime-by-GitHub
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
+#  - name: Google
+#    url: https://www.google.com
+#  - name: Wikipedia
+#    url: https://en.wikipedia.org
+#  - name: Hacker News
+#    url: https://news.ycombinator.com
+#    maxResponseTime: 5000
   - name: UptimeRobot
     url: https://uptimerobot.com
-    maxResponseTime: 5000
-  - name: iccsv01
-    url: https://iccsv01.ivancarlos.com.br
-    port: 443
-    check: "tcp-ping"
-    ipv6: true
-  - name: iccsv02
-    url: https://iccsv02.ivancarlos.com.br
-    port: 443
-    check: "tcp-ping"
-    ipv6: true
-  - name: iccsv03
-    url: https://iccsv03.ivancarlos.com.br
-    port: 443
-    check: "tcp-ping"
-    ipv6: true
-  - name: iccsv04
-    url: https://iccsv04.ivancarlos.com.br
-    port: 443
-    check: "tcp-ping"
-    ipv6: true
-  - name: iccsv05
-    url: https://iccsv05.ivancarlos.com.br
-    port: 443
-    check: "tcp-ping"
-    ipv6: true
-  - name: iccsv06
-    url: https://iccsv06.ivancarlos.com.br
-    port: 443
-    check: "tcp-ping"
-    ipv6: true
+  - name: Punto | Website | alerta.org.br
+    url: https://alerta.org.br
+    expectedStatusCodes:
+      - 200
+  - name: SP4 | Forwarder | sp4com.com.br
+    url: https://sp4com.com.br
+    expectedStatusCodes:
+      - 301
+  - name: SP4 | Website | www.sp4comunicacao.com.br
+    url: https://www.sp4comunicacao.com.br
+    expectedStatusCodes:
+      - 200
+      - 302
+#  - name: iccsv01
+#    url: https://iccsv01.ivancarlos.com.br
+#    port: 443
+#    check: "tcp-ping"
+#    ipv6: true
+#  - name: iccsv02
+#    url: https://iccsv02.ivancarlos.com.br
+#    port: 443
+#    check: "tcp-ping"
+#    ipv6: true
+#  - name: iccsv03
+#    url: https://iccsv03.ivancarlos.com.br
+#    port: 443
+#    check: "tcp-ping"
+#    ipv6: true
+#  - name: iccsv04
+#    url: https://iccsv04.ivancarlos.com.br
+#    port: 443
+#    check: "tcp-ping"
+#    ipv6: true
+#  - name: iccsv05
+#    url: https://iccsv05.ivancarlos.com.br
+#    port: 443
+#    check: "tcp-ping"
+#    ipv6: true
+#  - name: iccsv06
+#    url: https://iccsv06.ivancarlos.com.br
+#    port: 443
+#    check: "tcp-ping"
+#    ipv6: true
 
 status-website:
   theme: dark
