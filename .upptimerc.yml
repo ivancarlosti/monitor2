@@ -11,7 +11,7 @@ sites:
 #    maxResponseTime: 5000
   - name: UptimeRobot.uptimerobot
     url: https://uptimerobot.com
-  - name: Punto
+  - name: Punto.alerta
     url: https://alerta.org.br
     expectedStatusCodes:
       - 200
