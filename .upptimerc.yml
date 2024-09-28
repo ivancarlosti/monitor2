@@ -33,7 +33,7 @@ status-website:
   theme: night
   cname: monitor2.ivancarlos.com.br
   logoUrl: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/BNCnMqeS.png
-  name: Monitor2 de Status: Uptime by GitHub
+  name: "Monitor2 de Status: Uptime by GitHub"
   introTitle: "**Monitor2 de Status: Uptime by GitHub** is our secondary monitoring tool powered entirely by GitHub."
   introMessage: This is the monitor status page which uses **real-time** data from our [**GitHub repository**](https://github.com/ivancarlos-me/Uptime-by-GitHub). No server required, just GitHub Actions, Issues, and Pages.
   favicon: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/7vqI6o13.png
