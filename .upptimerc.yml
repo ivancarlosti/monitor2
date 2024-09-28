@@ -29,11 +29,11 @@ sites:
       - 200
       - 301
       - 302
-  - name: iccsv01
-    url: https://iccsv01.ivancarlos.com.br
-    port: 443
-    check: "tcp-ping"
-    ipv6: true
+#  - name: iccsv01
+#    url: https://iccsv01.ivancarlos.com.br
+#    port: 443
+#    check: "tcp-ping"
+#    ipv6: true
 #  - name: iccsv02
 #    url: https://iccsv02.ivancarlos.com.br
 #    port: 443
