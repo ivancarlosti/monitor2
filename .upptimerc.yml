@@ -30,7 +30,7 @@ status-website:
   logoUrl: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/BNCnMqeS.png
   name: "Monitor2 de Status: Uptime by GitHub"
   introTitle: "**Monitor2 de Status: Uptime by GitHub** is our secondary monitoring tool powered by GitHub."
-  introMessage: This is the monitor status page which uses **real-time** data from our [**GitHub repository**](https://github.com/ivancarlos-me/Uptime-by-GitHub). No server required, just GitHub Actions, Issues, and Pages.
+  introMessage: This is the monitor status page which uses **real-time** data from our [**GitHub repository**](https://github.com/$OWNER/$REPO). No server required, just GitHub Actions, Issues, and Pages.
   favicon: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/7vqI6o13.png
   faviconSvg: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/hGlsQKtB.svg
   customHeadHtml: "<!-- Google tag (gtag.js) --><script async src='https://www.googletagmanager.com/gtag/js?id=G-39VX59T3FR'></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-39VX59T3FR');</script>"
@@ -39,8 +39,6 @@ status-website:
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
     - title: Consultoria
       href: https://ivancarlos.com.br/
 
