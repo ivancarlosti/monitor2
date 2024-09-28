@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 518,
-    "timeDay": 518,
-    "timeWeek": 518,
-    "timeMonth": 518,
-    "timeYear": 518,
+    "time": 557,
+    "timeDay": 557,
+    "timeWeek": 557,
+    "timeMonth": 557,
+    "timeYear": 557,
     "dailyMinutesDown": {}
   },
   {
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1830,
-    "timeDay": 1830,
-    "timeWeek": 1830,
-    "timeMonth": 1830,
-    "timeYear": 1830,
+    "time": 2155,
+    "timeDay": 2155,
+    "timeWeek": 2155,
+    "timeMonth": 2155,
+    "timeYear": 2155,
     "dailyMinutesDown": {}
   },
   {
@@ -40,19 +40,19 @@
     "url": "https://sp4com.com.br",
     "icon": "https://icons.duckduckgo.com/ip3/sp4com.com.br.ico",
     "slug": "sp-4-forwarder-sp4com-com-br",
-    "status": "down",
-    "uptime": "26.81%",
-    "uptimeDay": "26.81%",
-    "uptimeWeek": "26.81%",
-    "uptimeMonth": "26.81%",
-    "uptimeYear": "26.81%",
-    "time": 6589,
-    "timeDay": 6589,
-    "timeWeek": 6589,
-    "timeMonth": 6589,
-    "timeYear": 6589,
+    "status": "up",
+    "uptime": "11.46%",
+    "uptimeDay": "11.46%",
+    "uptimeWeek": "11.46%",
+    "uptimeMonth": "11.46%",
+    "uptimeYear": "11.46%",
+    "time": 7548,
+    "timeDay": 7548,
+    "timeWeek": 7548,
+    "timeMonth": 7548,
+    "timeYear": 7548,
     "dailyMinutesDown": {
-      "2024-09-28": 1
+      "2024-09-28": 3
     }
   },
   {
@@ -66,11 +66,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 2575,
-    "timeDay": 2575,
-    "timeWeek": 2575,
-    "timeMonth": 2575,
-    "timeYear": 2575,
+    "time": 2645,
+    "timeDay": 2645,
+    "timeWeek": 2645,
+    "timeMonth": 2645,
+    "timeYear": 2645,
     "dailyMinutesDown": {}
   }
 ]
