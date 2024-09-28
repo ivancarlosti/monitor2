@@ -31,16 +31,14 @@ status-website:
   logoUrl: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/BNCnMqeS.png
   name: "Monitor2 de Status"
   introTitle: "**Monitor2 de Status** is our secondary monitoring tool powered by GitHub."
-  introMessage: This is the monitor status page which uses **real-time** data from our [**GitHub repository**](https://github.com/ivancarlos-me/Uptime-by-GitHub$repo$owner). No server required, just GitHub Actions, Issues, and Pages.
+  introMessage: This is the monitor status page which uses **real-time** data from our [**GitHub repository**](https://github.com/ivancarlos-me/Uptime-by-GitHub). No server required, just GitHub Actions, Issues, and Pages.
   favicon: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/7vqI6o13.png
   faviconSvg: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/hGlsQKtB.svg
   customHeadHtml: "<!-- Google tag (gtag.js) --><script async src='https://www.googletagmanager.com/gtag/js?id=G-39VX59T3FR'></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-39VX59T3FR');</script>"
   customBodyHtml: "<!-- -->"
   js: "document.addEventListener('DOMContentLoaded',function(){var senha='ivancarlosconsultoria';var senhaDigitada=prompt('This status page is password protected.');if(senhaDigitada!==senha){alert('Access denied.');document.body.innerHTML='';window.location.href='https://monitor2.ivancarlos.com.br';}});"
   navbar:
-    - title: Status
-      href: /
-    - title: Consultoria
+    - title: ICC
       href: https://ivancarlos.com.br/
 
 # Upptime also supports notifications, assigning issues, and more
