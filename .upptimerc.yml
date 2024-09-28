@@ -1,5 +1,5 @@
-owner: ivancarlos-me # Your GitHub organization or username, where this repository lives
-repo: Uptime-by-GitHub # The name of this repository
+owner: ivancarlos-me
+repo: Uptime-by-GitHub
 
 sites:
   - name: Google
@@ -43,14 +43,11 @@ sites:
     ipv6: true
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: monitor2.ivancarlos.com.br
-  # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Uptime by GitHub
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  introTitle: "**Uptime by GitGub** is the support monitoring tool to UptimeRobot, powered entirely by GitHub."
+  introMessage: This is the monitor status page which uses **real-time** data from our [GitHub repository](https://github.com/ivancarlos-me/Uptime-by-GitHub). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   navbar:
     - title: Status
       href: /
