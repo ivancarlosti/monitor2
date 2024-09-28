@@ -23,7 +23,72 @@ sites:
       - 200
       - 301
       - 302
-
+  - name: ICC.iccsv01
+    url: https://iccsv01.ivancarlos.com.br
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+  - name: ICC.iccsv02
+    url: https://iccsv02.ivancarlos.com.br
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+  - name: ICC.iccsv03
+    url: https://iccsv03.ivancarlos.com.br
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+  - name: ICC.iccsv04
+    url: https://iccsv04.ivancarlos.com.br
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+  - name: ICC.iccsv05
+    url: https://iccsv05.ivancarlos.com.br
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+  - name: ICC.iccsv06
+    url: https://iccsv06.ivancarlos.com.br
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+  - name: Bowler.bowlersv01
+    url: https://bowlersb01.bowler.com.br
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+  - name: Punto.puntosv08
+    url: https://puntosv08.puntocomunicacao.com.br
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+  - name: Punto.puntosv09
+    url: https://puntosv09.puntocomunicacao.com.br
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+  - name: Punto.puntosv10
+    url: https://puntosv10.puntocomunicacao.com.br
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+  - name: ICC v6
+    url: https://ivancarlos.com.br
+    ipv6: true
+  - name: Bowler v6
+    url: https://bowler.com.br
+    ipv6: true
 status-website:
 # theme: night
   themeUrl: https://monitor2.ivancarlos.com.br/icc.css
@@ -31,7 +96,7 @@ status-website:
   logoUrl: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/BNCnMqeS.png
   name: "Monitor2 de Status"
   introTitle: "**Monitor2 de Status** is our secondary monitoring tool powered by GitHub."
-  introMessage: This is the monitor status page which uses **real-time** data from our [**GitHub repository**](https://github.com/ivancarlos-me/Uptime-by-GitHub). No server required, just GitHub Actions, Issues, and Pages.
+  introMessage: This is the monitor status page which uses **real-time** data from our [**GitHub repository**](https://github.com/ivancarlos-me/Uptime-by-GitHub). No server required, just GitHub Actions, Issues, and Pages. This monitor monitor websites on hosting providers that blocks UptimeRobot, dashboard managers and IPv6 checks. For now we have issues testing IPv6 addresses. 
   favicon: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/7vqI6o13.png
   faviconSvg: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/hGlsQKtB.svg
   customHeadHtml: "<!-- Google tag (gtag.js) --><script async src='https://www.googletagmanager.com/gtag/js?id=G-39VX59T3FR'></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-39VX59T3FR');</script>"
