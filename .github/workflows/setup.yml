@@ -27,6 +27,10 @@ jobs:
     name: Setup Upptime
     runs-on: ubuntu-latest
     steps:
+      - name: Set up WARP
+        uses: fscarmen/warp-on-actions@v1.1
+        with:
+          stack: ipv6
       - name: Checkout
         uses: actions/checkout@v4
         with:
