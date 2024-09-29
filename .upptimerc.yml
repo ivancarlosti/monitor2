@@ -77,11 +77,11 @@ sites:
     url: ivancarlos.com.br
     port: 80
     ipv6: true
-  - name: ICC v4 test
+  - name: Bowler v6 test
     check: "tcp-ping"
-    url: ivancarlos.com.br
+    url: bowler.com.br
     port: 80
-    ipv6: false
+    ipv6: true
 status-website:
   themeUrl: https://monitor2.ivancarlos.com.br/icc.css
   cname: monitor2.ivancarlos.com.br
