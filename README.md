@@ -35,4 +35,4 @@ This repository contains the open-source uptime monitor and status page for [Iva
 
 <!--end: status pages-->
 
-[**Visit our status website →**](https://monitor2.ivancarlos.com.br)
+[**Monitor2 de Status →**](https://monitor2.ivancarlos.com.br)
