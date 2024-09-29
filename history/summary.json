@@ -41,18 +41,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/sp4com.com.br.ico",
     "slug": "sp-4-sp4com",
     "status": "down",
-    "uptime": "99.95%",
-    "uptimeDay": "99.95%",
-    "uptimeWeek": "99.95%",
-    "uptimeMonth": "99.95%",
-    "uptimeYear": "99.95%",
+    "uptime": "99.64%",
+    "uptimeDay": "99.64%",
+    "uptimeWeek": "99.64%",
+    "uptimeMonth": "99.64%",
+    "uptimeYear": "99.64%",
     "time": 7979,
     "timeDay": 7979,
     "timeWeek": 7979,
     "timeMonth": 7979,
     "timeYear": 7979,
     "dailyMinutesDown": {
-      "2024-09-29": 1
+      "2024-09-29": 4
     }
   },
   {
@@ -187,11 +187,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/bowlersv01.bowler.com.br.ico",
     "slug": "bowler-bowlersv01",
     "status": "up",
-    "uptime": "73.48%",
-    "uptimeDay": "73.48%",
-    "uptimeWeek": "73.48%",
-    "uptimeMonth": "73.48%",
-    "uptimeYear": "73.48%",
+    "uptime": "74.38%",
+    "uptimeDay": "74.38%",
+    "uptimeWeek": "74.38%",
+    "uptimeMonth": "74.38%",
+    "uptimeYear": "74.38%",
     "time": 778,
     "timeDay": 778,
     "timeWeek": 778,
@@ -326,7 +326,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-09-29": 41,
+      "2024-09-29": 44,
       "2024-09-28": 15
     }
   },
