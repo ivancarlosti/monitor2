@@ -1,6 +1,6 @@
 # [📈 Live Status](https://monitor2.ivancarlos.com.br): <!--live status--> **🟩 All systems operational**
 
-This repository contains the open-source uptime monitor and status page for [Ivan Carlos](https://ivancarlos.me), powered by [Upptime](https://github.com/upptime/upptime).
+This repository contains the open-source uptime monitor and status page for [Ivan Carlos](https://ivancarlos.me).
 
 [![Uptime CI](https://github.com/ivancarlos-me/Uptime-by-GitHub/workflows/Uptime%20CI/badge.svg)](https://github.com/ivancarlos-me/Uptime-by-GitHub/actions?query=workflow%3A%22Uptime+CI%22)
 [![Response Time CI](https://github.com/ivancarlos-me/Uptime-by-GitHub/workflows/Response%20Time%20CI/badge.svg)](https://github.com/ivancarlos-me/Uptime-by-GitHub/actions?query=workflow%3A%22Response+Time+CI%22)
@@ -35,9 +35,3 @@ This repository contains the open-source uptime monitor and status page for [Iva
 <!--end: status pages-->
 
 [**Visit our status website →**](https://monitor2.ivancarlos.com.br)
-
-## 📄 License
-
-- Powered by: [Upptime](https://github.com/upptime/upptime)
-- Code: [MIT](./LICENSE) © [Anand Chowdhary](https://anandchowdhary.com), supported by [Pabio](https://pabio.com)
-- Data in the `./history` directory: [Open Database License](https://opendatacommons.org/licenses/odbl/1-0/)
