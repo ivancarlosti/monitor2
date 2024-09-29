@@ -72,6 +72,8 @@ sites:
     url: https://fbspsv05.forumseguranca.org.br/login
     expectedStatusCodes:
       - 200
+  - name: Bowler normal site
+    url: https://bowler.com.br
   - name: ICC v6 test
     check: "tcp-ping"
     url: ivancarlos.com.br
