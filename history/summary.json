@@ -187,11 +187,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/bowlersv01.bowler.com.br.ico",
     "slug": "bowler-bowlersv01",
     "status": "up",
-    "uptime": "92.81%",
-    "uptimeDay": "92.81%",
-    "uptimeWeek": "92.81%",
-    "uptimeMonth": "92.81%",
-    "uptimeYear": "92.81%",
+    "uptime": "92.82%",
+    "uptimeDay": "92.82%",
+    "uptimeWeek": "92.82%",
+    "uptimeMonth": "92.82%",
+    "uptimeYear": "92.82%",
     "time": 743,
     "timeDay": 743,
     "timeWeek": 743,
@@ -416,7 +416,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-09-29": 91
+      "2024-09-29": 92
     }
   }
 ]
