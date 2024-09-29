@@ -22,15 +22,40 @@ sites:
     expectedStatusCodes:
       - 200
       
-  - name: Bowler.Bowlersv01.v6
+  - name: Bowler.bowlersv01.v6
     check: "tcp-ping"
     url: bowlersv01.bowler.com.br
     port: 80
     ipv6: true
-      
+
+  - name: Punto.puntosv01.v6
+    check: "tcp-ping"
+    url: puntosv01.puntocomunicacao.com.br
+    port: 80
+    ipv6: true
+  - name: Punto.puntosv06.v6
+    check: "tcp-ping"
+    url: puntosv06.puntocomunicacao.com.br
+    port: 80
+    ipv6: true
+  - name: Punto.puntosv07.v6
+    check: "tcp-ping"
+    url: puntosv07.puntocomunicacao.com.br
+    port: 80
+    ipv6: true
+  - name: Punto.puntosv08.v6
+    check: "tcp-ping"
+    url: puntosv08.puntocomunicacao.com.br
+    port: 80
+    ipv6: true
   - name: Punto.puntosv09.v6
     check: "tcp-ping"
     url: puntosv09.puntocomunicacao.com.br
+    port: 80
+    ipv6: true
+  - name: Punto.puntosv10.v6
+    check: "tcp-ping"
+    url: puntosv10.puntocomunicacao.com.br
     port: 80
     ipv6: true
   - name: Punto.oxfamsv01.v6
@@ -38,7 +63,12 @@ sites:
     url: oxfamsv01.oxfam.org.br
     port: 80
     ipv6: true
-  
+  - name: Punto.oxfamsv02.v6
+    check: "tcp-ping"
+    url: oxfamsv02.oxfam.org.br
+    port: 80
+    ipv6: true
+
   - name: FBSP.fbspsv01.v6
     check: "tcp-ping"
     url: fbspsv01.forumseguranca.org.br
@@ -102,7 +132,7 @@ status-website:
   logoUrl: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/BNCnMqeS.png
   name: "Monitor2 de Status"
   introTitle: "**Monitor2 de Status** is the secondary monitoring tool used by [**ICC**](https://ivancarlos.com.br) and hosted by [**GitHub**](https://github.com/)."
-  introMessage: This monitor checks websites on hosting providers that blocks [**UptimeRobot**](https://icc.gg/uptimerobot), also checks control panels, dashboards~~, [IPv6 reachability](https://github.com/ivancarlos-me/Uptime-by-GitHub/issues/21#issuecomment-2381086861)~~.
+  introMessage: This monitor checks websites on hosting providers that blocks [**UptimeRobot**](https://icc.gg/uptimerobot), also checks control panels, dashboards, IPv6 reachability.
   favicon: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/7vqI6o13.png
   faviconSvg: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/hGlsQKtB.svg
   customHeadHtml: "<!-- Google tag (gtag.js) --><script async src='https://www.googletagmanager.com/gtag/js?id=G-39VX59T3FR'></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-39VX59T3FR');</script>"
