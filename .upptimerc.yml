@@ -72,16 +72,16 @@ sites:
     url: https://fbspsv05.forumseguranca.org.br/login
     expectedStatusCodes:
       - 200
-#  - name: ICC v6 test
-#    check: "tcp-ping"
-#    url: ivancarlos.com.br
-#    port: 80
-#    ipv6: true
-#  - name: ICC v4 test
-#    check: "tcp-ping"
-#    url: ivancarlos.com.br
-#    port: 80
-#    ipv6: false
+  - name: ICC v6 test
+    check: "tcp-ping"
+    url: ivancarlos.com.br
+    port: 80
+    ipv6: true
+  - name: ICC v4 test
+    check: "tcp-ping"
+    url: ivancarlos.com.br
+    port: 80
+    ipv6: false
 status-website:
   themeUrl: https://monitor2.ivancarlos.com.br/icc.css
   cname: monitor2.ivancarlos.com.br
