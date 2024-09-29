@@ -74,14 +74,19 @@ sites:
       - 200
   - name: Bowler normal site
     url: https://bowler.com.br
-  - name: ICC v6 test
+  - name: iccsv01 v6 test
     check: "tcp-ping"
-    url: ivancarlos.com.br
+    url: iccsv01.ivancarlos.com.br
     port: 80
     ipv6: true
   - name: iccsv05 v6 test
     check: "tcp-ping"
     url: iccsv05.ivancarlos.com.br
+    port: 80
+    ipv6: true
+  - name: iccsv06 v6 test
+    check: "tcp-ping"
+    url: iccsv06.ivancarlos.com.br
     port: 80
     ipv6: true
   - name: Bowler v6 test
