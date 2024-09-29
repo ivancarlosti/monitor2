@@ -7,6 +7,7 @@ sites:
     url: https://uptimerobot.com
     expectedStatusCodes:
       - 200
+      
   - name: Punto.alerta
     url: https://alerta.org.br
     expectedStatusCodes:
@@ -20,6 +21,7 @@ sites:
     url: https://sp4comunicacao.com.br/en
     expectedStatusCodes:
       - 200
+      
   - name: ICC.iccsv01
     url: https://iccsv01.ivancarlos.com.br/login
     expectedStatusCodes:
@@ -42,12 +44,16 @@ sites:
       - 200
   - name: ICC.iccsv06
     url: https://iccsv06.ivancarlos.com.br/login
+    ipv6: true
     expectedStatusCodes:
       - 200
+      
   - name: Bowler.bowlersv01
     url: https://bowlersv01.bowler.com.br/login
+    ipv6: true
     expectedStatusCodes:
       - 200
+      
   - name: Punto.puntosv09
     url: https://puntosv09.puntocomunicacao.com.br/login
     expectedStatusCodes:
@@ -60,6 +66,7 @@ sites:
     url: https://oxfamsv01.oxfam.org.br/login
     expectedStatusCodes:
       - 200
+      
   - name: FBSP.fbspsv03
     url: https://fbspsv03.forumseguranca.org.br/login
     expectedStatusCodes:
@@ -72,8 +79,7 @@ sites:
     url: https://fbspsv05.forumseguranca.org.br/login
     expectedStatusCodes:
       - 200
-  - name: Bowler normal site
-    url: https://bowler.com.br
+      
   - name: iccsv01 v6 test
     check: "tcp-ping"
     url: iccsv01.ivancarlos.com.br
