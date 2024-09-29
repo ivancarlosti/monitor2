@@ -79,6 +79,11 @@ sites:
     url: iccsv01.ivancarlos.com.br
     port: 80
     ipv6: true
+  - name: iccsv02 v6 test
+    check: "tcp-ping"
+    url: iccsv02.ivancarlos.com.br
+    port: 80
+    ipv6: true
   - name: iccsv05 v6 test
     check: "tcp-ping"
     url: iccsv05.ivancarlos.com.br
