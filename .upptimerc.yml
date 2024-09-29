@@ -5,96 +5,72 @@ user-agent: ivancarlos-me
 sites:
   - name: UptimeRobot
     url: https://uptimerobot.com
+    expectedStatusCodes:
+      - 200
   - name: Punto.alerta
     url: https://alerta.org.br
     expectedStatusCodes:
       - 200
-      - 301
-      - 302
   - name: SP4.sp4com
     url: https://sp4com.com.br
     expectedStatusCodes:
-      - 200
       - 301
-      - 302
   - name: SP4.sp4comunicacao
-    url: https://sp4comunicacao.com.br
+    url: https://sp4comunicacao.com.br/en
     expectedStatusCodes:
       - 200
-      - 301
-      - 302
   - name: ICC.iccsv01
-    url: https://iccsv01.ivancarlos.com.br
+    url: https://iccsv01.ivancarlos.com.br/login
     expectedStatusCodes:
       - 200
-      - 301
-      - 302
   - name: ICC.iccsv02
-    url: https://iccsv02.ivancarlos.com.br
+    url: https://iccsv02.ivancarlos.com.br/login
     expectedStatusCodes:
       - 200
-      - 301
-      - 302
   - name: ICC.iccsv03
-    url: https://iccsv03.ivancarlos.com.br
+    url: https://iccsv03.ivancarlos.com.br/login
     expectedStatusCodes:
       - 200
-      - 301
-      - 302
   - name: ICC.iccsv04
-    url: https://iccsv04.ivancarlos.com.br
+    url: https://iccsv04.ivancarlos.com.br/login
     expectedStatusCodes:
       - 200
-      - 301
-      - 302
   - name: ICC.iccsv05
-    url: https://iccsv05.ivancarlos.com.br
+    url: https://iccsv05.ivancarlos.com.br/login
     expectedStatusCodes:
       - 200
-      - 301
-      - 302
   - name: ICC.iccsv06
-    url: https://iccsv06.ivancarlos.com.br
+    url: https://iccsv06.ivancarlos.com.br/login
     expectedStatusCodes:
       - 200
-      - 301
-      - 302
   - name: Bowler.bowlersv01
-    url: https://bowlersv01.bowler.com.br
+    url: https://bowlersv01.bowler.com.br/login
     expectedStatusCodes:
       - 200
-      - 301
-      - 302
   - name: Punto.puntosv09
-    url: https://puntosv09.puntocomunicacao.com.br
+    url: https://puntosv09.puntocomunicacao.com.br/login
     expectedStatusCodes:
       - 200
-      - 301
-      - 302
   - name: Punto.puntosv10
-    url: https://puntosv10.puntocomunicacao.com.br
+    url: https://puntosv10.puntocomunicacao.com.br/login
     expectedStatusCodes:
       - 200
-      - 301
-      - 302
+  - name: Punto.oxfamsv01
+    url: https://oxfamsv01.oxfam.org.br/login
+    expectedStatusCodes:
+      - 200
   - name: FBSP.fbspsv03
-    url: https://fbspsv03.forumseguranca.org.br
+    url: https://fbspsv03.forumseguranca.org.br/login
     expectedStatusCodes:
       - 200
-      - 301
-      - 302
   - name: FBSP.fbspsv04
-    url: https://fbspsv04.forumseguranca.org.br
+    url: https://fbspsv04.forumseguranca.org.br/login
     expectedStatusCodes:
       - 200
-      - 301
-      - 302
   - name: FBSP.fbspsv05
-    url: https://fbspsv05.forumseguranca.org.br
+    url: https://fbspsv05.forumseguranca.org.br/login
     expectedStatusCodes:
       - 200
-      - 301
-      - 302
   - name: ICC v6 test
     check: "tcp-ping"
     url: ivancarlos.com.br
@@ -106,13 +82,12 @@ sites:
     port: 80
     ipv6: false
 status-website:
-# theme: night
   themeUrl: https://monitor2.ivancarlos.com.br/icc.css
   cname: monitor2.ivancarlos.com.br
   logoUrl: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/BNCnMqeS.png
   name: "Monitor2 de Status"
   introTitle: "**Monitor2 de Status** is the secondary monitoring tool used by [**ICC**](https://ivancarlos.com.br) and hosted by [**GitHub**](https://github.com/)."
-  introMessage: This monitor checks websites on hosting providers that blocks [**UptimeRobot**](https://icc.gg/uptimerobot), also checks dashboard managers ~~and IPv6 reachability~~. *For now GitHub have issues that impacts IPv6 monitoring*. 
+  introMessage: This monitor checks websites on hosting providers that blocks [**UptimeRobot**](https://icc.gg/uptimerobot), also checks dashboard managers ~~and IPv6 reachability~~.. 
   favicon: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/7vqI6o13.png
   faviconSvg: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/hGlsQKtB.svg
   customHeadHtml: "<!-- Google tag (gtag.js) --><script async src='https://www.googletagmanager.com/gtag/js?id=G-39VX59T3FR'></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-39VX59T3FR');</script>"
@@ -121,6 +96,3 @@ status-website:
   navbar:
     - title: ICC
       href: https://ivancarlos.com.br/
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
