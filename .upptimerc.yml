@@ -22,89 +22,80 @@ sites:
     expectedStatusCodes:
       - 200
       
-  - name: ICC.iccsv01
-    url: https://iccsv01.ivancarlos.com.br/login
-    expectedStatusCodes:
-      - 200
-  - name: ICC.iccsv02
-    url: https://iccsv02.ivancarlos.com.br/login
-    expectedStatusCodes:
-      - 200
-  - name: ICC.iccsv03
-    url: https://iccsv03.ivancarlos.com.br/login
-    expectedStatusCodes:
-      - 200
-  - name: ICC.iccsv04
-    url: https://iccsv04.ivancarlos.com.br/login
-    expectedStatusCodes:
-      - 200
-  - name: ICC.iccsv05
-    url: https://iccsv05.ivancarlos.com.br/login
-    expectedStatusCodes:
-      - 200
-  - name: ICC.iccsv06
-    url: https://iccsv06.ivancarlos.com.br/login
+  - name: Bowler.Bowlersv01.v6
+    check: "tcp-ping"
+    url: bowlersv01.bowler.com.br
+    port: 80
     ipv6: true
-    expectedStatusCodes:
-      - 200
       
-  - name: Bowler.bowlersv01
-    url: https://bowlersv01.bowler.com.br/login
+  - name: Punto.puntosv09.v6
+    check: "tcp-ping"
+    url: puntosv09.puntocomunicacao.com.br
+    port: 80
     ipv6: true
-    expectedStatusCodes:
-      - 200
-      
-  - name: Punto.puntosv09
-    url: https://puntosv09.puntocomunicacao.com.br/login
-    expectedStatusCodes:
-      - 200
-  - name: Punto.puntosv10
-    url: https://puntosv10.puntocomunicacao.com.br/login
-    expectedStatusCodes:
-      - 200
-  - name: Punto.oxfamsv01
-    url: https://oxfamsv01.oxfam.org.br/login
-    expectedStatusCodes:
-      - 200
-      
-  - name: FBSP.fbspsv03
-    url: https://fbspsv03.forumseguranca.org.br/login
-    expectedStatusCodes:
-      - 200
-  - name: FBSP.fbspsv04
-    url: https://fbspsv04.forumseguranca.org.br/login
-    expectedStatusCodes:
-      - 200
-  - name: FBSP.fbspsv05
-    url: https://fbspsv05.forumseguranca.org.br/login
-    expectedStatusCodes:
-      - 200
-      
-  - name: iccsv01 v6 test
+  - name: Punto.oxfamsv01.v6
+    check: "tcp-ping"
+    url: oxfamsv01.oxfam.org.br
+    port: 80
+    ipv6: true
+  
+  - name: FBSP.fbspsv01.v6
+    check: "tcp-ping"
+    url: fbspsv01.forumseguranca.org.br
+    port: 80
+    ipv6: true 
+  - name: FBSP.fbspsv02.v6
+    check: "tcp-ping"
+    url: fbspsv02.forumseguranca.org.br
+    port: 80
+    ipv6: true
+  - name: FBSP.fbspsv03.v6
+    check: "tcp-ping"
+    url: fbspsv03.forumseguranca.org.br
+    port: 80
+    ipv6: true
+  - name: FBSP.fbspsv04.v6
+    check: "tcp-ping"
+    url: fbspsv04.forumseguranca.org.br
+    port: 80
+    ipv6: true 
+  - name: FBSP.fbspsv05.v6
+    check: "tcp-ping"
+    url: fbspsv05.forumseguranca.org.br
+    port: 80
+    ipv6: true
+    
+  - name: ICC.iccsv01.v6
     check: "tcp-ping"
     url: iccsv01.ivancarlos.com.br
     port: 80
     ipv6: true
-  - name: iccsv02 v6 test
+  - name: ICC.iccsv02.v6
     check: "tcp-ping"
     url: iccsv02.ivancarlos.com.br
     port: 80
     ipv6: true
-  - name: iccsv05 v6 test
+  - name: ICC.iccsv03.v6
+    check: "tcp-ping"
+    url: iccsv03.ivancarlos.com.br
+    port: 80
+    ipv6: true
+  - name: ICC.iccsv04.v6
+    check: "tcp-ping"
+    url: iccsv04.ivancarlos.com.br
+    port: 80
+    ipv6: true
+  - name: ICC.iccsv05.v6
     check: "tcp-ping"
     url: iccsv05.ivancarlos.com.br
     port: 80
     ipv6: true
-  - name: iccsv06 v6 test
+  - name: ICC.iccsv06.v6
     check: "tcp-ping"
     url: iccsv06.ivancarlos.com.br
     port: 80
     ipv6: true
-  - name: Bowler v6 test
-    check: "tcp-ping"
-    url: bowler.com.br
-    port: 80
-    ipv6: true
+    
 status-website:
   themeUrl: https://monitor2.ivancarlos.com.br/icc.css
   cname: monitor2.ivancarlos.com.br
