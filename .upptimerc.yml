@@ -88,7 +88,7 @@ status-website:
   logoUrl: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/BNCnMqeS.png
   name: "Monitor2 de Status"
   introTitle: "**Monitor2 de Status** is the secondary monitoring tool used by [**ICC**](https://ivancarlos.com.br) and hosted by [**GitHub**](https://github.com/)."
-  introMessage: This monitor checks websites on hosting providers that blocks [**UptimeRobot**](https://icc.gg/uptimerobot), also checks control panels, dashboard, ~~sand IPv6 reachability~~.. 
+  introMessage: This monitor checks websites on hosting providers that blocks [**UptimeRobot**](https://icc.gg/uptimerobot), also checks control panels, dashboard, ~~and IPv6 reachability~~.. 
   favicon: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/7vqI6o13.png
   faviconSvg: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/hGlsQKtB.svg
   customHeadHtml: "<!-- Google tag (gtag.js) --><script async src='https://www.googletagmanager.com/gtag/js?id=G-39VX59T3FR'></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-39VX59T3FR');</script>"
