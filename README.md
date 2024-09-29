@@ -1,9 +1,4 @@
-<!--
-```
 # [📈 Live Status](https://monitor2.ivancarlos.com.br): <!--live status--> **🟧 Partial outage**
-```
--->
-
 
 This repository contains the open-source uptime monitor and status page for [Ivan Carlos](https://ivancarlos.me).
 
