@@ -2,6 +2,10 @@ owner: ivancarlos-me
 repo: Uptime-by-GitHub
 user-agent: ivancarlos-me
 
+skipDescriptionUpdate: true
+skipTopicsUpdate: true
+skipHomepageUpdate: true
+
 sites:
   - name: UptimeRobot
     url: https://uptimerobot.com
