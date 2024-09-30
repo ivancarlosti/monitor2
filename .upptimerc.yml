@@ -67,16 +67,16 @@ sites:
     url: https://iccsv06.ivancarlos.com.br
     
 status-website:
-  theme: ocean
+  theme: night
   css: "body { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none; }"
   cname: monitor2.ivancarlos.com.br
   robotsText: "User-agent: * \n Allow: /"
-  logourl: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/BNCnMqeS.png
-  name: "Monitor2 de Status"
-  introTitle: "**Monitor2 de Status** is the secondary monitoring tool used by [**ICC**](https://ivancarlos.com.br) and hosted by [**GitHub**](https://github.com/)."
-  introMessage: This monitor checks websites on hosting providers that blocks [**UptimeRobot**](https://icc.gg/uptimerobot), also checks control panels, dashboards, IPv6 reachability.
+  logoUrl: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/BNCnMqeS.png
   favicon: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/7vqI6o13.png
   faviconSvg: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/hGlsQKtB.svg
+  name: "Monitor2 de Status"
+  introTitle: "**Monitor2 de Status** is the secondary monitoring tool used by [**ICC**](https://ivancarlos.com.br) and hosted by [**GitHub**](https://github.com/)."
+  introMessage: This monitor checks websites on hosting providers that blocks [**UptimeRobot**](https://icc.gg/uptimerobot), also checks control panels, dashboards~~, IPv6 reachability~~.
   customHeadHtml: "<!-- Google tag (gtag.js) --><script async src='https://www.googletagmanager.com/gtag/js?id=G-39VX59T3FR'></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-39VX59T3FR');</script>"
   customBodyHtml: "<!-- -->"
   js: "document.addEventListener('DOMContentLoaded',function(){var senha='ivancarlosconsultoria';var senhaDigitada=prompt('This status page is password protected.');if(senhaDigitada!==senha){alert('Access denied.');document.body.innerHTML='';window.location.href='https://monitor2.ivancarlos.com.br';}});document.addEventListener('contextmenu', event => event.preventDefault());"
