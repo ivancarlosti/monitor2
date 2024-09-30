@@ -27,21 +27,17 @@ jobs:
     name: Setup Upptime
     runs-on: ubuntu-latest
     steps:
-      - name: Set up WARP
-        uses: fscarmen/warp-on-actions@v1.1
-        with:
-          stack: ipv6
       - name: Checkout
         uses: actions/checkout@v4
         with:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GH_PAT || github.token }}
- #     - name: Update template
- #       uses: upptime/uptime-monitor@v1.38.0
- #       with:
- #         command: "update-template"
- #       env:
- #         GH_PAT: ${{ secrets.GH_PAT || github.token }}
+      - name: Update template
+        uses: upptime/uptime-monitor@v1.38.0
+        with:
+          command: "update-template"
+        env:
+          GH_PAT: ${{ secrets.GH_PAT || github.token }}
       - name: Update response time
         uses: upptime/uptime-monitor@v1.38.0
         with:
@@ -49,12 +45,12 @@ jobs:
         env:
           GH_PAT: ${{ secrets.GH_PAT || github.token }}
           SECRETS_CONTEXT: ${{ toJson(secrets) }}
- #     - name: Update summary in README
- #       uses: upptime/uptime-monitor@v1.38.0
- #       with:
- #         command: "readme"
- #       env:
- #         GH_PAT: ${{ secrets.GH_PAT || github.token }}
+      - name: Update summary in README
+        uses: upptime/uptime-monitor@v1.38.0
+        with:
+          command: "readme"
+        env:
+          GH_PAT: ${{ secrets.GH_PAT || github.token }}
       - name: Generate graphs
         uses: benc-uk/workflow-dispatch@v1
         with:
