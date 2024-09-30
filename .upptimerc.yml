@@ -70,6 +70,7 @@ status-website:
   theme: ocean
   css: "body { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none; }"
   cname: monitor2.ivancarlos.com.br
+  robotsText: "User-agent: * \n Allow: /"
   logourl: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/BNCnMqeS.png
   name: "Monitor2 de Status"
   introTitle: "**Monitor2 de Status** is the secondary monitoring tool used by [**ICC**](https://ivancarlos.com.br) and hosted by [**GitHub**](https://github.com/)."
