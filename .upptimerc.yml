@@ -22,114 +22,54 @@ sites:
     expectedStatusCodes:
       - 200
       
-  - name: Bowler.bowlersv01.v6
-    check: "tcp-ping"
-    url: bowlersv01.bowler.com.br
-    port: 80
-    ipv6: true
+  - name: Bowler.bowlersv01.cp
+    url: https://bowlersv01.bowler.com.br
 
-  - name: Punto.puntosv01.v6
-    check: "tcp-ping"
-    url: puntosv01.puntocomunicacao.com.br
-    port: 80
-    ipv6: true
-  - name: Punto.puntosv06.v6
-    check: "tcp-ping"
-    url: puntosv06.puntocomunicacao.com.br
-    port: 80
-    ipv6: true
-  - name: Punto.puntosv07.v6
-    check: "tcp-ping"
-    url: puntosv07.puntocomunicacao.com.br
-    port: 80
-    ipv6: true
-  - name: Punto.puntosv08.v6
-    check: "tcp-ping"
-    url: puntosv08.puntocomunicacao.com.br
-    port: 80
-    ipv6: true
-  - name: Punto.puntosv09.v6
-    check: "tcp-ping"
-    url: puntosv09.puntocomunicacao.com.br
-    port: 80
-    ipv6: true
-  - name: Punto.puntosv10.v6
-    check: "tcp-ping"
-    url: puntosv10.puntocomunicacao.com.br
-    port: 80
-    ipv6: true
-  - name: Punto.oxfamsv01.v6
-    check: "tcp-ping"
-    url: oxfamsv01.oxfam.org.br
-    port: 80
-    ipv6: true
-  - name: Punto.oxfamsv02.v6
-    check: "tcp-ping"
-    url: oxfamsv02.oxfam.org.br
-    port: 80
-    ipv6: true
+  - name: Punto.puntosv01.cp
+    url: https://puntosv01.puntocomunicacao.com.br
+  - name: Punto.puntosv06.cp
+    url: https://puntosv06.puntocomunicacao.com.br
+  - name: Punto.puntosv07.cp
+    url: https://puntosv07.puntocomunicacao.com.br
+  - name: Punto.puntosv08.cp
+    url: https://puntosv08.puntocomunicacao.com.br
+  - name: Punto.puntosv09.cp
+    url: https://puntosv09.puntocomunicacao.com.br
+  - name: Punto.puntosv10.cp
+    url: https://puntosv10.puntocomunicacao.com.br
+  - name: Punto.oxfamsv01.cp
+    url: https://oxfamsv01.oxfam.org.br
+  - name: Punto.oxfamsv02.cp
+    url: https://oxfamsv02.oxfam.org.br
 
-  - name: FBSP.fbspsv01.v6
-    check: "tcp-ping"
-    url: fbspsv01.forumseguranca.org.br
-    port: 22
-    ipv6: true 
-  - name: FBSP.fbspsv02.v6
-    check: "tcp-ping"
-    url: fbspsv02.forumseguranca.org.br
-    port: 22
-    ipv6: true
-  - name: FBSP.fbspsv03.v6
-    check: "tcp-ping"
-    url: fbspsv03.forumseguranca.org.br
-    port: 22
-    ipv6: true
-  - name: FBSP.fbspsv04.v6
-    check: "tcp-ping"
-    url: fbspsv04.forumseguranca.org.br
-    port: 22
-    ipv6: true 
-  - name: FBSP.fbspsv05.v6
-    check: "tcp-ping"
-    url: fbspsv05.forumseguranca.org.br
-    port: 22
-    ipv6: true
+  - name: FBSP.fbspsv01.cp
+    url: https://fbspsv01.forumseguranca.org.br
+  - name: FBSP.fbspsv02.cp
+    url: https://fbspsv02.forumseguranca.org.br
+  - name: FBSP.fbspsv03.cp
+    url: https://fbspsv03.forumseguranca.org.br
+  - name: FBSP.fbspsv04.cp
+    url: https://fbspsv04.forumseguranca.org.br
+  - name: FBSP.fbspsv05.cp
+    url: https://fbspsv05.forumseguranca.org.br
     
-  - name: ICC.iccsv01.v6
-    check: "tcp-ping"
-    url: iccsv01.ivancarlos.com.br
-    port: 80
-    ipv6: true
-  - name: ICC.iccsv02.v6
-    check: "tcp-ping"
-    url: iccsv02.ivancarlos.com.br
-    port: 80
-    ipv6: true
-  - name: ICC.iccsv03.v6
-    check: "tcp-ping"
-    url: iccsv03.ivancarlos.com.br
-    port: 80
-    ipv6: true
-  - name: ICC.iccsv04.v6
-    check: "tcp-ping"
-    url: iccsv04.ivancarlos.com.br
-    port: 80
-    ipv6: true
-  - name: ICC.iccsv05.v6
-    check: "tcp-ping"
-    url: iccsv05.ivancarlos.com.br
-    port: 80
-    ipv6: true
-  - name: ICC.iccsv06.v6
-    check: "tcp-ping"
-    url: iccsv06.ivancarlos.com.br
-    port: 80
-    ipv6: true
+  - name: ICC.iccsv01.cp
+    url: https://iccsv01.ivancarlos.com.br
+  - name: ICC.iccsv02.cp
+    url: https://iccsv02.ivancarlos.com.br
+  - name: ICC.iccsv03.cp
+    url: https://iccsv03.ivancarlos.com.br
+  - name: ICC.iccsv04.cp
+    url: https://iccsv04.ivancarlos.com.br
+  - name: ICC.iccsv05.cp
+    url: https://iccsv05.ivancarlos.com.br
+  - name: ICC.iccsv06.cp
+    url: https://iccsv06.ivancarlos.com.br
     
 status-website:
-  themeUrl: https://monitor2.ivancarlos.com.br/icc.css
+  themeurl: https://monitor2.ivancarlos.com.br/icc.css
   cname: monitor2.ivancarlos.com.br
-  logoUrl: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/BNCnMqeS.png
+  logourl: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/BNCnMqeS.png
   name: "Monitor2 de Status"
   introTitle: "**Monitor2 de Status** is the secondary monitoring tool used by [**ICC**](https://ivancarlos.com.br) and hosted by [**GitHub**](https://github.com/)."
   introMessage: This monitor checks websites on hosting providers that blocks [**UptimeRobot**](https://icc.gg/uptimerobot), also checks control panels, dashboards, IPv6 reachability.
