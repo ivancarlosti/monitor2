@@ -67,7 +67,8 @@ sites:
     url: https://iccsv06.ivancarlos.com.br
     
 status-website:
-  themeurl: https://monitor2.ivancarlos.com.br/icc.css
+  theme: ocean
+  css: body { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none; }
   cname: monitor2.ivancarlos.com.br
   logourl: https://s3.sa-east-1.amazonaws.com/envio.ivancarlos.com.br/BNCnMqeS.png
   name: "Monitor2 de Status"
