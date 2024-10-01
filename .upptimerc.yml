@@ -35,10 +35,6 @@ sites:
     check: "tcp-ping"
     url: puntosv01.puntocomunicacao.com.br
     port: 22
-  - name: Punto.puntosv06.cp
-    check: "tcp-ping"
-    url: puntosv06.puntocomunicacao.com.br
-    port: 22
   - name: Punto.puntosv07.cp
     check: "tcp-ping"
     url: puntosv07.puntocomunicacao.com.br
@@ -51,9 +47,9 @@ sites:
     check: "tcp-ping"
     url: puntosv09.puntocomunicacao.com.br
     port: 22
-  - name: Punto.puntosv10.cp
+  - name: Punto.puntosv11.cp
     check: "tcp-ping"
-    url: puntosv10.puntocomunicacao.com.br
+    url: puntosv11.puntocomunicacao.com.br
     port: 22
   - name: Punto.oxfamsv01.cp
     check: "tcp-ping"
