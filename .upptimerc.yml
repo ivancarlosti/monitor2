@@ -11,6 +11,14 @@ sites:
     url: https://monitor.ivancarlos.com.br
     expectedStatusCodes:
       - 200
+  - name: ICC.cloud
+    url: https://cloud.ivancarlos.com.br
+    expectedStatusCodes:
+      - 200
+  - name: ICC.cloud2
+    url: https://cloud2.ivancarlos.com.br
+    expectedStatusCodes:
+      - 200
       
   - name: Punto.alerta
     url: https://alerta.org.br
