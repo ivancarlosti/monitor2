@@ -1,4 +1,4 @@
-# [📈 Live Status](https://monitor2.ivancarlos.com.br): <!--live status--> **🟩 All systems operational**
+# [📈 Monitor2 de Status](https://monitor2.ivancarlos.com.br): <!--live status--> **🟩 All systems operational**
 
 This repository contains the open-source uptime monitor and status page for [Ivan Carlos](https://ivancarlos.me).
 
