@@ -77,11 +77,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/sp4com.com.br.ico",
     "slug": "sp-4-sp4com",
     "status": "up",
-    "uptime": "99.28%",
+    "uptime": "99.30%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "99.80%",
-    "uptimeMonth": "99.28%",
-    "uptimeYear": "99.28%",
+    "uptimeMonth": "99.30%",
+    "uptimeYear": "99.30%",
     "time": 8094,
     "timeDay": 5956,
     "timeWeek": 8353,
@@ -97,9 +97,9 @@
     "url": "https://sp4comunicacao.com.br/en",
     "icon": "https://icons.duckduckgo.com/ip3/sp4comunicacao.com.br.ico",
     "slug": "sp-4-sp4comunicacao",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -108,7 +108,9 @@
     "timeWeek": 6204,
     "timeMonth": 5493,
     "timeYear": 5493,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-10-09": 0
+    }
   },
   {
     "name": "Bowler.bowlersv01.cp",
