@@ -474,11 +474,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "z-domain-almeida-com-br",
     "status": "down",
-    "uptime": "0.05%",
-    "uptimeDay": "0.05%",
-    "uptimeWeek": "0.05%",
-    "uptimeMonth": "0.05%",
-    "uptimeYear": "0.05%",
+    "uptime": "0.10%",
+    "uptimeDay": "0.10%",
+    "uptimeWeek": "0.10%",
+    "uptimeMonth": "0.10%",
+    "uptimeYear": "0.10%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
@@ -494,18 +494,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "z-domain-aya-com",
     "status": "down",
-    "uptime": "1.80%",
-    "uptimeDay": "1.80%",
-    "uptimeWeek": "1.80%",
-    "uptimeMonth": "1.80%",
-    "uptimeYear": "1.80%",
+    "uptime": "1.78%",
+    "uptimeDay": "1.78%",
+    "uptimeWeek": "1.78%",
+    "uptimeMonth": "1.78%",
+    "uptimeYear": "1.78%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-10-19": 27
+      "2024-10-19": 28
     }
   },
   {
@@ -514,19 +514,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "z-domain-aya-com-br",
     "status": "up",
-    "uptime": "63.48%",
-    "uptimeDay": "63.48%",
-    "uptimeWeek": "63.48%",
-    "uptimeMonth": "63.48%",
-    "uptimeYear": "63.48%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 1775,
     "timeDay": 1775,
     "timeWeek": 1775,
     "timeMonth": 1775,
     "timeYear": 1775,
-    "dailyMinutesDown": {
-      "2024-10-19": 10
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Z_Domain.icc.com",
@@ -534,19 +532,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "z-domain-icc-com",
     "status": "up",
-    "uptime": "68.00%",
-    "uptimeDay": "68.00%",
-    "uptimeWeek": "68.00%",
-    "uptimeMonth": "68.00%",
-    "uptimeYear": "68.00%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 226,
     "timeDay": 226,
     "timeWeek": 226,
     "timeMonth": 226,
     "timeYear": 226,
-    "dailyMinutesDown": {
-      "2024-10-19": 9
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Z_Domain.ivancarlos.com",
@@ -554,19 +550,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "z-domain-ivancarlos-com",
     "status": "up",
-    "uptime": "72.53%",
-    "uptimeDay": "72.53%",
-    "uptimeWeek": "72.53%",
-    "uptimeMonth": "72.53%",
-    "uptimeYear": "72.53%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 107,
     "timeDay": 107,
     "timeWeek": 107,
     "timeMonth": 107,
     "timeYear": 107,
-    "dailyMinutesDown": {
-      "2024-10-19": 7
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "ICC.icc.gg",
