@@ -8,6 +8,7 @@ skipHomepageUpdate: true
 
 sites:
   - name: ICC.monitor
+    client: ICC
     url: https://monitor.ivancarlos.com.br
     expectedStatusCodes:
       - 200
