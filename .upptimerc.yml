@@ -7,6 +7,7 @@ skipTopicsUpdate: true
 skipHomepageUpdate: true
 
 sites:
+# system dashboards
   - name: ICC.monitor
     client: ICC
     url: https://monitor.ivancarlos.com.br
@@ -22,7 +23,8 @@ sites:
     url: https://cloud2.ivancarlos.com.br
     expectedStatusCodes:
       - 200
-      
+
+# sites that blocks uptimerobot
   - name: Punto.alerta
     client: Punto
     url: https://alerta.org.br
@@ -39,7 +41,8 @@ sites:
     url: https://sp4comunicacao.com.br/en
     expectedStatusCodes:
       - 200
-      
+
+# hosting control panels
   - name: Bowler.bowlersv01.cp
     client: Bowler
     check: "tcp-ping"
@@ -139,7 +142,7 @@ sites:
     url: iccsv06.ivancarlos.com.br
     port: 22
 
-domaintoget:
+# domains to get
   - name: Z_Domain.almeida.com.br
     client: Z_Domain
     url: almeida.com.br
@@ -156,6 +159,7 @@ domaintoget:
     client: Z_Domain
     url: ivancarlos.com
 
+# domains without expiration date
   - name: ICC.icc.gg
     client: ICC
      expiration: 2025-05-18T00:00:00
