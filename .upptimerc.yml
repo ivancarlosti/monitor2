@@ -13,104 +13,128 @@ sites:
     expectedStatusCodes:
       - 200
   - name: ICC.cloud
+    client: ICC
     url: https://cloud.ivancarlos.com.br
     expectedStatusCodes:
       - 200
   - name: ICC.cloud2
+    client: ICC
     url: https://cloud2.ivancarlos.com.br
     expectedStatusCodes:
       - 200
       
   - name: Punto.alerta
+    client: ICC
     url: https://alerta.org.br
     expectedStatusCodes:
       - 200
   - name: SP4.sp4com
+    client: ICC
     url: https://sp4com.com.br
     expectedStatusCodes:
       - 200
       - 301
   - name: SP4.sp4comunicacao
+    client: ICC
     url: https://sp4comunicacao.com.br/en
     expectedStatusCodes:
       - 200
       
   - name: Bowler.bowlersv01.cp
+    client: ICC
     check: "tcp-ping"
     url: bowlersv01.bowler.com.br
     port: 22
 
   - name: Punto.puntosv01.cp
+    client: ICC
     check: "tcp-ping"
     url: puntosv01.puntocomunicacao.com.br
     port: 22
   - name: Punto.puntosv07.cp
+    client: ICC
     check: "tcp-ping"
     url: puntosv07.puntocomunicacao.com.br
     port: 22
   - name: Punto.puntosv09.cp
+    client: ICC
     check: "tcp-ping"
     url: puntosv09.puntocomunicacao.com.br
     port: 22
   - name: Punto.puntosv11.cp
+    client: ICC
     check: "tcp-ping"
     url: puntosv11.puntocomunicacao.com.br
     port: 22
   - name: Punto.puntosv12.cp
+    client: ICC
     check: "tcp-ping"
     url: puntosv12.puntocomunicacao.com.br
     port: 22
   - name: Punto.oxfamsv01.cp
+    client: ICC
     check: "tcp-ping"
     url: oxfamsv01.oxfam.org.br
     port: 22
   - name: Punto.oxfamsv02.cp
+    client: ICC
     check: "tcp-ping"
     url: oxfamsv02.oxfam.org.br
     port: 22
 
   - name: FBSP.fbspsv01.cp
+    client: ICC
     check: "tcp-ping"
     url: fbspsv01.forumseguranca.org.br
     port: 22
   - name: FBSP.fbspsv02.cp
+    client: ICC
     check: "tcp-ping"
     url: fbspsv02.forumseguranca.org.br
     port: 22
   - name: FBSP.fbspsv03.cp
+    client: ICC
     check: "tcp-ping"
     url: fbspsv03.forumseguranca.org.br
     port: 22
   - name: FBSP.fbspsv04.cp
+    client: ICC
     check: "tcp-ping"
     url: fbspsv04.forumseguranca.org.br
     port: 22
   - name: FBSP.fbspsv05.cp
+    client: ICC
     check: "tcp-ping"
     url: fbspsv05.forumseguranca.org.br
     port: 22
     
   - name: ICC.iccsv01.cp
+    client: ICC
     check: "tcp-ping"
     url: iccsv01.ivancarlos.com.br
     port: 22
   - name: ICC.iccsv02.cp
+    client: ICC
     check: "tcp-ping"
     url: iccsv02.ivancarlos.com.br
     port: 22
   - name: ICC.iccsv03.cp
+    client: ICC
     check: "tcp-ping"
     url: iccsv03.ivancarlos.com.br
     port: 22
   - name: ICC.iccsv04.cp
+    client: ICC
     check: "tcp-ping"
     url: iccsv04.ivancarlos.com.br
     port: 22
   - name: ICC.iccsv05.cp
+    client: ICC
     check: "tcp-ping"
     url: iccsv05.ivancarlos.com.br
     port: 22
   - name: ICC.iccsv06.cp
+    client: ICC
     check: "tcp-ping"
     url: iccsv06.ivancarlos.com.br
     port: 22
