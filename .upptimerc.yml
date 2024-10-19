@@ -30,9 +30,9 @@ sites:
       - 200
       - 301
   - name: SP4.sp4comunicacao
-    url: https://sp4comunicacao.com.br/en
+    url: https://sp4comunicacao.com.br
     expectedStatusCodes:
-      - 200
+      - 301
       
   - name: Bowler.bowlersv01.cp
     check: "tcp-ping"
