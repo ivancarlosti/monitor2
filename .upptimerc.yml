@@ -147,27 +147,27 @@ sites:
     client: Z_Domain
     check: "tcp-ping"
     url: almeida.com.br
-    port: 22
+    port: 2222
   - name: Z_Domain.aya.com
     client: Z_Domain
     check: "tcp-ping"
     url: aya.com
-    port: 22
+    port: 2222
   - name: Z_Domain.aya.com.br
     client: Z_Domain
     check: "tcp-ping"
     url: aya.com.br
-    port: 22
+    port: 80
   - name: Z_Domain.icc.com
     client: Z_Domain
     check: "tcp-ping"
     url: icc.com
-    port: 22
+    port: 80
   - name: Z_Domain.ivancarlos.com
     client: Z_Domain
     check: "tcp-ping"
     url: ivancarlos.com
-    port: 22
+    port: 80
 
 # domains without expiration date
   - name: ICC.icc.gg
