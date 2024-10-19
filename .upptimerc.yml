@@ -145,34 +145,49 @@ sites:
 # domains to get
   - name: Z_Domain.almeida.com.br
     client: Z_Domain
+    check: "tcp-ping"
     url: almeida.com.br
+    port: 22
   - name: Z_Domain.aya.com
     client: Z_Domain
+    check: "tcp-ping"
     url: aya.com
+    port: 22
   - name: Z_Domain.aya.com.br
     client: Z_Domain
+    check: "tcp-ping"
     url: aya.com.br
+    port: 22
   - name: Z_Domain.icc.com
     client: Z_Domain
+    check: "tcp-ping"
     url: icc.com
+    port: 22
   - name: Z_Domain.ivancarlos.com
     client: Z_Domain
+    check: "tcp-ping"
     url: ivancarlos.com
+    port: 22
 
 # domains without expiration date
   - name: ICC.icc.gg
     client: ICC
     expiration: 2025-05-18T00:00:00
     url: icc.gg
+    expectedStatusCodes:
+      - 200
   - name: ICC.ivancarlos.es
     client: ICC
     expiration: 2025-09-19T00:00:00
     url: ivancarlos.es
+    expectedStatusCodes:
+      - 200
   - name: ICC.ivancarlos.eu
     client: ICC
     expiration: 2025-09-19T00:00:00
     url: ivancarlos.eu
-
+    expectedStatusCodes:
+      - 200
     
 status-website:
   theme: night
