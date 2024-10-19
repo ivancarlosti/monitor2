@@ -162,7 +162,7 @@ sites:
 # domains without expiration date
   - name: ICC.icc.gg
     client: ICC
-     expiration: 2025-05-18T00:00:00
+    expiration: 2025-05-18T00:00:00
     url: icc.gg
   - name: ICC.ivancarlos.es
     client: ICC
