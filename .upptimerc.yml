@@ -142,33 +142,6 @@ sites:
     url: iccsv06.ivancarlos.com.br
     port: 22
 
-# domains to get
-  - name: Z_Domain.almeida.com.br
-    client: Z_Domain
-    check: "tcp-ping"
-    url: almeida.com.br
-    port: 2222
-  - name: Z_Domain.aya.com
-    client: Z_Domain
-    check: "tcp-ping"
-    url: aya.com
-    port: 2222
-  - name: Z_Domain.aya.com.br
-    client: Z_Domain
-    check: "tcp-ping"
-    url: aya.com.br
-    port: 80
-  - name: Z_Domain.icc.com
-    client: Z_Domain
-    check: "tcp-ping"
-    url: icc.com
-    port: 80
-  - name: Z_Domain.ivancarlos.com
-    client: Z_Domain
-    check: "tcp-ping"
-    url: ivancarlos.com
-    port: 80
-
 # domains without expiration date
   - name: ICC.icc.gg
     client: ICC
@@ -188,7 +161,24 @@ sites:
     url: ivancarlos.eu
     expectedStatusCodes:
       - 200
-    
+
+# domains to get
+#  - name: Z_Domain.almeida.com.br
+#    client: Z_Domain
+#    url: almeida.com.br
+#  - name: Z_Domain.aya.com
+#    client: Z_Domain
+#    url: aya.com
+#  - name: Z_Domain.aya.com.br
+#    client: Z_Domain
+#    url: aya.com.br
+#  - name: Z_Domain.icc.com
+#    client: Z_Domain
+#    url: icc.com
+#  - name: Z_Domain.ivancarlos.com
+#    client: Z_Domain
+#    url: ivancarlos.com
+
 status-website:
   theme: night
   css: "body { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none; }"
