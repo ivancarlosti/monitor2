@@ -142,6 +142,23 @@ sites:
     url: iccsv06.ivancarlos.com.br
     port: 22
 
+# domains to get
+#  - name: Z_Domain.almeida.com.br
+#    client: Z_Domain
+#    url: almeida.com.br
+#  - name: Z_Domain.aya.com
+#    client: Z_Domain
+#    url: aya.com
+#  - name: Z_Domain.aya.com.br
+#    client: Z_Domain
+#    url: aya.com.br
+#  - name: Z_Domain.icc.com
+#    client: Z_Domain
+#    url: icc.com
+#  - name: Z_Domain.ivancarlos.com
+#    client: Z_Domain
+#    url: ivancarlos.com
+
 # domains without expiration date
   - name: ICC.icc.gg
     client: ICC
@@ -161,23 +178,6 @@ sites:
     url: ivancarlos.eu
     expectedStatusCodes:
       - 200
-
-# domains to get
-#  - name: Z_Domain.almeida.com.br
-#    client: Z_Domain
-#    url: almeida.com.br
-#  - name: Z_Domain.aya.com
-#    client: Z_Domain
-#    url: aya.com
-#  - name: Z_Domain.aya.com.br
-#    client: Z_Domain
-#    url: aya.com.br
-#  - name: Z_Domain.icc.com
-#    client: Z_Domain
-#    url: icc.com
-#  - name: Z_Domain.ivancarlos.com
-#    client: Z_Domain
-#    url: ivancarlos.com
 
 status-website:
   theme: night
