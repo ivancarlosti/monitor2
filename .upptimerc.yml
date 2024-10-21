@@ -180,6 +180,13 @@ sites:
     expectedStatusCodes:
       - 200
 
+  - name: ICC.wrong.host.badssl.com
+    client: ICC
+    expiration: 2025-09-19T00:00:00
+    url: wrong.host.badssl.com
+    expectedStatusCodes:
+      - 200
+
 status-website:
   theme: night
   css: "body { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none; }"
