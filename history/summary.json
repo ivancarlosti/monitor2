@@ -106,19 +106,19 @@
     "url": "https://sp4comunicacao.com.br/en",
     "icon": "https://icons.duckduckgo.com/ip3/sp4comunicacao.com.br.ico",
     "slug": "sp-4-sp4comunicacao",
-    "status": "down",
-    "uptime": "99.93%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.93%",
-    "uptimeYear": "99.93%",
-    "time": 5300,
-    "timeDay": 3520,
-    "timeWeek": 4558,
-    "timeMonth": 5300,
-    "timeYear": 5300,
+    "status": "up",
+    "uptime": "99.87%",
+    "uptimeDay": "98.37%",
+    "uptimeWeek": "99.77%",
+    "uptimeMonth": "99.87%",
+    "uptimeYear": "99.87%",
+    "time": 5296,
+    "timeDay": 3856,
+    "timeWeek": 4572,
+    "timeMonth": 5296,
+    "timeYear": 5296,
     "dailyMinutesDown": {
-      "2024-10-22": 0,
+      "2024-10-22": 23,
       "2024-10-09": 23
     }
   },
@@ -541,7 +541,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-10-22": 195,
+      "2024-10-22": 218,
       "2024-10-21": 976
     }
   }
