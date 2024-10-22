@@ -25,11 +25,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/cloud.ivancarlos.com.br.ico",
     "slug": "icc-cloud",
     "status": "up",
-    "uptime": "97.84%",
+    "uptime": "97.85%",
     "uptimeDay": "98.53%",
     "uptimeWeek": "99.79%",
-    "uptimeMonth": "97.84%",
-    "uptimeYear": "97.84%",
+    "uptimeMonth": "97.85%",
+    "uptimeYear": "97.85%",
     "time": 801,
     "timeDay": 855,
     "timeWeek": 784,
@@ -106,18 +106,19 @@
     "url": "https://sp4comunicacao.com.br/en",
     "icon": "https://icons.duckduckgo.com/ip3/sp4comunicacao.com.br.ico",
     "slug": "sp-4-sp4comunicacao",
-    "status": "up",
+    "status": "down",
     "uptime": "99.93%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.93%",
     "uptimeYear": "99.93%",
-    "time": 5338,
-    "timeDay": 4708,
-    "timeWeek": 4728,
-    "timeMonth": 5338,
-    "timeYear": 5338,
+    "time": 5300,
+    "timeDay": 3520,
+    "timeWeek": 4558,
+    "timeMonth": 5300,
+    "timeYear": 5300,
     "dailyMinutesDown": {
+      "2024-10-22": 0,
       "2024-10-09": 23
     }
   },
@@ -540,7 +541,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2024-10-22": 41,
+      "2024-10-22": 195,
       "2024-10-21": 976
     }
   }
