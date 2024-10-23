@@ -1,20 +1,14 @@
-
 sites:
 
-
-
 # domains without expiration date
-  - name: ICC.icc.gg
-    client: ICC
+  - propertyName: ICC
+    domainName: icc.gg
     expiration: 2025-05-18T00:00:00
-    url: icc.gg
 
-  - name: ICC.ivancarlos.es
-    client: ICC
+  - propertyName: ICC
+    domainName: ivancarlos.es
     expiration: 2025-09-19T00:00:00
-    url: ivancarlos.es
 
-  - name: ICC.ivancarlos.eu
-    client: ICC
+  - propertyName: ICC
+    domainName: ivancarlos.eu
     expiration: 2025-09-19T00:00:00
-    url: ivancarlos.eu
